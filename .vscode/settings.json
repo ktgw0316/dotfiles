@@ -1,0 +1,64 @@
+{
+    "python.venvPath": ".venv",
+    "python.pythonPath": "C:\\Users\\13080_Kitagawa\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.jediEnabled": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=88",
+        "--ignore=E203"
+    ],
+    // whitelist to remove lint errors
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=cv2"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "${workspaceFolder}/src/main/python",
+        "-p",
+        "test_*.py"
+    ],
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "materialTheme.autoApplyIcons": true,
+    "team.showWelcomeMessage": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, BreakBeforeBraces: Attach, ColumnLimit: 100, IndentWidth: 4 }",
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/*.swp": true,
+        "**/*~": true
+    },
+    // "terminal.integrated.shell.windows": "C:\\msys64\\usr\\bin\\bash.exe",
+    // "terminal.integrated.env.windows": {
+    //     "MSYSTEM": "MINGW64",
+    //     "CHERE_INVOKING": "1"
+    // },
+    // "terminal.integrated.shellArgs.windows": [
+    //     "--login"
+    // ],
+    "files.autoGuessEncoding": true,
+    "files.insertFinalNewline": true,
+    "editor.lineNumbers": "relative",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "workbench.statusBar.feedback.visible": false,
+    "editor.fontFamily": "monospace",
+    // cf. https://ohmyenter.com/comment-line-and-next-line-with-vscode/
+    "macros": {
+        "commentLineAndNext": [
+            "editor.action.commentLine",
+            "cursorDown",
+        ],
+    },
+    "http.proxyStrictSSL": false,
+}

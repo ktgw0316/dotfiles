@@ -1,0 +1,13 @@
+[
+    // cf. https://ohmyenter.com/comment-line-and-next-line-with-vscode/
+    {
+        "key": "cmd+/",
+        "command": "macros.commentLineAndNext",
+        "when": "isMac && textEditorFocus"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "macros.commentLineAndNext",
+        "when": "!isMac && textEditorFocus"
+    },
+]
