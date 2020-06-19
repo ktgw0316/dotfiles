@@ -3,11 +3,11 @@
     {
         "key": "cmd+/",
         "command": "macros.commentLineAndNext",
-        "when": "isMac && textEditorFocus"
+        "when": "isMac && editorTextFocus"
     },
     {
         "key": "ctrl+/",
         "command": "macros.commentLineAndNext",
-        "when": "!isMac && textEditorFocus"
+        "when": "!isMac && editorTextFocus"
     },
 ]
