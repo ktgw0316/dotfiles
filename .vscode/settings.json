@@ -17,6 +17,7 @@
     "files.trimFinalNewlines": true,
     "http.proxyStrictSSL": false,
     "team.showWelcomeMessage": false,
+    "update.showReleaseNotes": false,
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.statusBar.feedback.visible": false,
